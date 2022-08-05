@@ -3,4 +3,4 @@ project(reverse_string C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_library(reverse_string library.c)
+add_library(reverse_string string-tools.c)
