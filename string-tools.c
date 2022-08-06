@@ -1,6 +1,6 @@
 #include "string-tools.h"
 
-#include <malloc.h>
+#include <stdlib.h>
 
 char *reverse_string(char *input_string) {
     int str_len = string_length(input_string);
